@@ -1,12 +1,7 @@
 clear
-clear all
-set more off
-cls
-capture log close
-cd "$box/loglinear/loglinear DID/code_logdid/Code for ATE in pct/Empirical Applications"
 
 *******************Some data cleaning following Atkin et al.(2017)*******************
-/*
+
 use "analysis.dta", clear // this is the orignal data from Atkin et al.(2017)
 gen dub=0
 /*round 100 and round 200 are baseline rounds for sample 1 and 2 resepctvily */
@@ -18,7 +13,7 @@ keep if round<300 // rounds>=300 are not experiments For rounds>=300, profit mea
 
 drop if round==110|round==105
 save rep_atk,replace
-*/
+
 *************************Generate Dummies for Treatment Group*************************
 use rep_atk,clear
 qui tab strata,gen(dstrata) // strata dummies
