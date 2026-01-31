@@ -1,9 +1,4 @@
 clear
-clear all
-set more off
-capture log close
-// ssc install parmest
-cd "$box/loglinear/loglinear DID/code_logdid/Code for ATE in pct/Empirical Applications"
 
 *******Part 1: Some Data Cleaning******
 	
@@ -57,4 +52,5 @@ foreach g of numlist 1898 1899 1901 1902 1903{
 global groupvars "g`g'post*"
 ate_pct $groupvars,truew
 }
+
 
