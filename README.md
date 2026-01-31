@@ -22,9 +22,9 @@ Install the accompanying Stata command **before** running any replication do-fil
 - **Option A (SSC):**
   ```stata
   ssc install ate_pct
-````
+  ```
 
-* **Option B (latest version on GitHub):**
+- **Option B (latest version on GitHub):**
   [https://github.com/zengying17/ate_pct-stata](https://github.com/zengying17/ate_pct-stata)
 
 ---
