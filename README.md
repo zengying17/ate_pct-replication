@@ -47,4 +47,8 @@ Install the accompanying Stata command **before** running any replication do-fil
   [https://www.journals.uchicago.edu/doi/abs/10.1086/700766](https://www.journals.uchicago.edu/doi/abs/10.1086/700766)
 
 * `rep_AG2019.do`:
-  Stata do-file that reproduces the results for the Alsan and Goldin (2019) application.
+  Stata do-file that reproduces the results for the Alsan and Goldin (2019) application in Table 3 of the main text.
+  
+* `imputation_AG2019.do`:
+  Stata do-file that reproduces the Table O.3 Imputation-Based Estimates for the Alsan and Goldin (2019) Application in the Online Appendix.
+  
